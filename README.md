@@ -6,6 +6,11 @@
 ### 1일 1문제 이상 풀기 진행중 🌱
 - 기간: 2025.05.15 ~ 현재<br>
 
-###성과
-
-### 목표
+<details>
+<summary>📌성과</summary>
+</details>
+<details>
+<summary>목표 🔥</summary>
+- 백준 골드 5 달성
+- AI CNN 구현
+</details>
