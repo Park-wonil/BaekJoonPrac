@@ -4,13 +4,11 @@
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"><br>
 
 ### 1일 1문제 이상 풀기 진행중 🌱
-- 기간: 2025.05.15 ~ 현재<br>
+- 기간: 2025.05.15 ~ 현재
 
-<details>
-<summary>📌성과</summary>
-</details>
-<details>
-<summary>목표 🔥</summary>
+### 성과🏆
+
+### 목표 🔥
 - 백준 골드 5 달성
 - AI CNN 구현
-</details>
+
