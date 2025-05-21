@@ -1,12 +1,8 @@
-b = []
+num = []
 for _ in range(9):
-    a = int(input())
-    b.append(a)
-max=b[0]
-maxn=0
-for i in range(1,9):
-    if b[maxn]<b[i]:
-        maxn = i
-        max = b[i]
-print(max)
-print(maxn+1)
+    inp = int(input())
+    num.append(inp)
+max_ = max(num)
+max_n = num.index(max_)
+print(max_)
+print(max_n+1)
