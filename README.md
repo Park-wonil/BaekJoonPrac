@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"><br>
 
 ### 1일 1문제 이상 풀기 진행중 🌱
-- 기간: 2025.06.29 ~ 현재
+- 기간: 2025.06.30 ~ 현재
 
 ### 성과🏆
 - HUFS 해커톤 상위 10위
