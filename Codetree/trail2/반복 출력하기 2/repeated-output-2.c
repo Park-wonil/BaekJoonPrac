@@ -1,15 +1,16 @@
 #include <stdio.h>
-void hi(int x){
-    if(x==0){
+void wonil(int n){
+    if(n==0){
         return;
     }
-    hi(x-1);
+    wonil(n-1);
     printf("HelloWorld\n");
 }
 int main() {
     int n;
-    scanf("%d",&n);
-    hi(n);
+    scanf("%d", &n);
+    
+    wonil(n);
     
     return 0;
 }
