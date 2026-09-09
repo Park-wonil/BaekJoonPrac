@@ -1,9 +1,9 @@
 #include <stdio.h>
-int wonil(int x){
-    if(x<10){
-        return x*x;
+int wonil(int n){
+    if(n<10){
+        return n*n;
     }
-    return wonil(x/10)+ (x%10)*(x%10);
+    return wonil(n/10) + (n%10)*(n%10);
 }
 int main() {
     int n;
