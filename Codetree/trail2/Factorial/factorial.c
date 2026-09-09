@@ -1,15 +1,18 @@
 #include <stdio.h>
-int F(int x){
-    if(x==1){
+int wonil(int n){
+    if(n==1){
         return 1;
     }
-    return F(x-1)* x;
+    if(n==0){
+        return 1;
+    }
+    return wonil(n-1) * n;
 }
 int main(void) {
     int n;
     scanf("%d", &n);
-
-    printf("%d",F(n));
+    
+    printf("%d",wonil(n));
     
     return 0;
 }
