@@ -1,23 +1,20 @@
 #include <stdio.h>
 #include <string.h>
-void check(char *a,int x){
-    char b[100];
-    int cnt=0;
-    for(int i=x;i>=0;i--){
-        b[cnt]=*(a+i);
-        cnt++;
+char A[101];
+void HI(char *s){
+    char B[101];
+    for(int i=0;i<strlen(A);i++){
+        B[i]=A[strlen(A)-1-i];
     }
-    b[cnt]='\0';
-    if(strcmp(a,b)==0){
+    B[strlen(A)]='\0';
+    if(strcmp(A,B)==0){
         printf("Yes");
     }else{
         printf("No");
     }
 }
 int main() {
-    char a[100];
-    scanf("%s",a);
-    int n = strlen(a)-1;
-    check(a,n);
+    scanf("%s", A);
+    HI(A);
     return 0;
 }
