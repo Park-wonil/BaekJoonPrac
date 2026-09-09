@@ -1,15 +1,15 @@
 #include <stdio.h>
-int cnt;
-int wonil(int x){
-    if(x==1){
+int cnt=0;
+int wonil(int n){
+
+    if (n==1){
         return 1;
     }
-    return x+(wonil(x-1));
-
+    return wonil(n-1)+n;
 }
 int main() {
     int n;
     scanf("%d", &n);
-    printf("%d",wonil(n));
+    printf("%d", wonil(n));
     return 0;
 }
